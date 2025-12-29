@@ -209,6 +209,88 @@ margin-left:4%;
   }
 }
 
+@media (max-width: 480px) {
+  body {
+    background-position: center;
+  }
+
+  #nav-bar {
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    padding: 0.75rem 0;
+    gap: 0.5rem;
+  }
+
+  #port-in-nav {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  #main-in-nav,
+  #about-me-in-nav,
+  #projects-in-nav {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  #nav-bar span {
+    font-size: 1.5rem;
+  }
+
+  #main-bar {
+    width: 92%;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #my-photo {
+    width: 70%;
+    margin: 1.5rem 0 0 0;
+  }
+
+  #my-name {
+    position: static;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #main-para {
+    width: 92%;
+    margin: 1rem 0 1.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  #main-bar {
+    width: 94%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #my-photo {
+    width: 60%;
+    margin-top: 2rem;
+  }
+
+  #my-name {
+    position: static;
+    text-align: center;
+    margin-top: 1.25rem;
+  }
+
+  #main-para {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+}
+
+
 @media (min-width: 1025px) and (max-width: 1920px) {
   #main-bar {
     width: 55rem;
