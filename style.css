@@ -21,7 +21,9 @@ html {
 body {
   min-height: 100vh;
   font-family:my-font-one;
-  background-image: linear-gradient(to right bottom, black, blue);
+  background-image:url(bg_photo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
   display: flex;
   font-family: my-font-one;
   flex-direction: column;
