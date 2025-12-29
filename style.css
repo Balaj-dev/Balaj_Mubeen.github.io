@@ -68,6 +68,11 @@ body {
   font-size: 3.25rem;
 }
 
+#my-photo{
+  size: 40%;
+  position: relative;
+}
+
 #main-bar {
   width: 60rem;
   min-height: 60vh;
